@@ -1,0 +1,14 @@
+stories:
+  - story: 04 выбор
+    steps:
+      - intent: 06_нет
+        entities: []
+      - action: action_clear_slots
+      - action: action_get_product
+      - intent: 06_да
+        entities: []
+      - action: action_get_link
+      - action: utter_WXOyxHW1V
+    metadata:
+      group: Подбор по каталогу
+rules: []

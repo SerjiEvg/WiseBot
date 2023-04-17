@@ -1,0 +1,20 @@
+stories:
+  - story: 03 выбор
+    steps:
+      - intent: 04_комп
+        entities: []
+      - action: action_recommendation_product
+      - intent: 04_сервер
+        entities: []
+      - action: action_recommendation_product
+    metadata:
+      group: Рекомендации
+  - story: 03 рекомендации
+    steps:
+      - intent: 02_рекомендация
+        entities: []
+      - action: utter_N9tVMhhxm
+      - action: action_recommendation_product
+    metadata:
+      group: Рекомендации
+rules: []

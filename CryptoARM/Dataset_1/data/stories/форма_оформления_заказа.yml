@@ -1,0 +1,22 @@
+stories:
+  - story: Запрос создания заказа
+    steps:
+      - intent: 09_подтверждение
+        entities: []
+      - action: action_get_request_create_order
+    metadata:
+      group: Форма оформления заказа
+  - story: Оформление заказа
+    steps:
+      - intent: 08_да
+        entities: []
+      - action: action_get_type_delivery_id_product
+      - action: test_form
+      - active_loop: test_form
+      - active_loop: null
+      - action: utter_d_R7H2reT
+      - action: action_check_data_order
+      - action: utter_JYQ3JVaxw
+    metadata:
+      group: Форма оформления заказа
+rules: []

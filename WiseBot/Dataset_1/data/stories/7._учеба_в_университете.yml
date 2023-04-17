@@ -1,0 +1,154 @@
+stories:
+  - story: 7.1. Учебный план и дисциплины
+    steps:
+      - intent: 7_1_знание_иностранных_языков
+        entities: []
+      - action: utter_7_1_знание_иностранных_языков
+      - intent: 7_1_образовательная_программа
+        entities: []
+      - action: utter_7_1_образовательная_программа
+      - intent: 7_1_совмещенный_формат_обучения
+        entities: []
+      - action: utter_7_1_совмещенный_формат_обучения
+      - intent: 7_1_учебный_план
+        entities: []
+      - action: utter_7_1_учебный_план
+      - intent: 7_1_календарный_учебный_график
+        entities: []
+      - action: utter_7_1_календарный_учебный_график
+      - intent: 7_1_рабочие_программы_дисциплин
+        entities: []
+      - action: utter_7_1_рабочие_программы_дисциплин
+      - intent: 7_1_академический_отпуск
+        entities: []
+      - action: utter_7_1_академический_отпуск
+      - intent: 7_1_расписание
+        entities: []
+      - action: utter_7_1_расписание
+      - intent: 7_1_деканат
+        entities: []
+      - action: utter_7_1_деканат
+    metadata:
+      group: 7. Учеба в университете
+  - story: 7.2. Общение
+    steps:
+      - intent: 7_2_помощь_с_учебным_процессом
+        entities: []
+      - action: utter_7_2_помощь_с_учебным_процессом
+    metadata:
+      group: 7. Учеба в университете
+  - story: 7.3. Контроль успеваемости
+    steps:
+      - intent: 7_3_регистрация_в_личном_кабинете_будущего_студента
+        entities: []
+      - action: utter_7_3_регистрация_в_личном_кабинете_будущего_студента
+      - intent: 7_3_регистрация_в_личном_кабинете_студента
+        entities: []
+      - action: utter_7_3_регистрация_в_личном_кабинете_студента
+      - intent: 7_3_контроль_успеваемости
+        entities: []
+      - action: utter_7_3_контроль_успеваемости
+      - intent: 7_3_промежуточная_аттестация
+        entities: []
+      - action: utter_7_3_промежуточная_аттестация
+    metadata:
+      group: 7. Учеба в университете
+  - story: '7.4. Сдача зачетов, экзаменов'
+    steps:
+      - intent: 7_4_начало_конец_сессии
+        entities: []
+      - action: utter_7_4_начало_конец_сессии
+      - intent: 7_4_проведение_экзаменов
+        entities: []
+      - action: utter_7_4_проведение_экзаменов
+      - intent: 7_4_сессия
+        entities: []
+      - action: utter_7_4_сессия
+      - intent: 7_4_несдача_сессии
+        entities: []
+      - action: utter_7_4_несдача_сессии
+      - intent: 7_4_пересдача
+        entities: []
+      - action: utter_7_4_пересдача
+      - intent: 7_4_несдача_зачета
+        entities: []
+      - action: utter_7_4_несдача_зачета
+      - intent: 7_4_не_закрыл_сессию
+        entities: []
+      - action: utter_7_4_не_закрыл_сессию
+      - intent: 7_4_сдача_экзамена
+        entities: []
+      - action: utter_7_4_сдача_экзамена
+      - intent: 7_4_разница_зачета_экзамена
+        entities: []
+      - action: utter_7_4_разница_зачета_экзамена
+      - intent: 7_4_количество_долгов
+        entities: []
+      - action: utter_7_4_количество_долгов
+      - intent: 7_4_досрочная_сдача_сессии
+        entities: []
+      - action: utter_7_4_досрочная_сдача_сессии
+      - intent: 7_4_влияние_зачетов
+        entities: []
+      - action: utter_7_4_влияние_зачетов
+      - intent: 7_4_зачет_с_оценкой
+        entities: []
+      - action: utter_7_4_зачет_с_оценкой
+      - intent: 7_4_пересдача_для_диплома
+        entities: []
+      - action: utter_7_4_пересдача_для_диплома
+      - intent: 7_4_зачет_без_оценки
+        entities: []
+      - action: utter_7_4_зачет_без_оценки
+      - intent: 7_4_проведение_зачета
+        entities: []
+      - action: utter_7_4_проведение_зачета
+      - intent: 7_4_пропуск_экзамена
+        entities: []
+      - action: utter_7_4_пропуск_экзамена
+      - intent: 7_4_больничный
+        entities: []
+      - action: utter_7_4_больничный
+      - intent: 7_4_допуск_к_сессии
+        entities: []
+      - action: utter_7_4_допуск_к_сессии
+      - intent: 7_4_автомат_зачет
+        entities: []
+      - action: utter_7_4_автомат_зачет
+      - intent: 7_4_недопуск_к_сессии
+        entities: []
+      - action: utter_7_4_недопуск_к_сессии
+      - intent: 7_4_подготовка_к_экзамену
+        entities: []
+      - action: utter_7_4_подготовка_к_экзамену
+      - intent: 7_4_подготовка_за_день
+        entities: []
+      - action: utter_7_4_подготовка_за_день
+      - intent: 7_4_запрет_на_экзамене
+        entities: []
+      - action: utter_7_4_запрет_на_экзамене
+      - intent: 7_4_шпаргалка_на_экзамене
+        entities: []
+      - action: utter_7_4_шпаргалка_на_экзамене
+      - intent: 7_4_посещение_туалета_во_время_экзамена
+        entities: []
+      - action: utter_7_4_посещение_туалета_во_время_экзамена
+      - intent: 7_4_сон_перед_экзаменом
+        entities: []
+      - action: utter_7_4_сон_перед_экзаменом
+    metadata:
+      group: 7. Учеба в университете
+  - story: 7.5. Закрытие долгов
+    steps:
+      - intent: 7_5_поиск_преподавателя
+        entities: []
+      - action: utter_7_5_поиск_преподавателя
+      - intent: 7_5_задолженность
+        entities: []
+      - action: utter_7_5_задолженность
+      - intent: 7_3_ликвидация_задолженности
+        entities: []
+      - action: utter_7_3_ликвидация_задолженности
+    metadata:
+      group: 7. Учеба в университете
+rules: []

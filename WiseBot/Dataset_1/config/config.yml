@@ -1,0 +1,28 @@
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 200
+  - name: >-
+      rasa_addons.nlu.components.intent_ranking_canonical_example_injector.IntentRankingCanonicalExampleInjector
+  - name: CRFEntityExtractor
+  - name: EntitySynonymMapper
+  - name: FallbackClassifier
+    threshold: 0.7
+language: ru
+
+
+policies:
+- name: AugmentedMemoizationPolicy
+- name: TEDPolicy
+  epochs: 200
+  max_history: 1
+  batch_size:
+      - 32
+      - 64
+- name: RulePolicy

@@ -1,0 +1,60 @@
+stories:
+  - story: Благодарность
+    steps:
+      - intent: спасибо
+        entities: []
+      - action: utter_спасибо
+    metadata:
+      group: Общие вопросы
+  - story: Общие вопросы
+    steps:
+      - intent: ответ_на_вопрос
+        entities: []
+      - action: utter_ответ_на_вопрос
+      - intent: правильность
+        entities: []
+      - action: utter_правильность
+      - intent: неправильность
+        entities: []
+      - action: utter_неправильность
+      - intent: плохая_работа
+        entities: []
+      - action: utter_плохая_работа
+      - intent: хорошая_работа
+        entities: []
+      - action: utter_хорошая_работа
+    metadata:
+      group: Общие вопросы
+  - story: Приветствие
+    steps:
+      - intent: приветствие
+        entities: []
+      - action: utter_приветствие
+      - intent: умение
+        entities: []
+      - action: utter_умение
+    metadata:
+      group: Общие вопросы
+  - story: Прощание
+    steps:
+      - intent: прощание
+        entities: []
+      - action: utter_прощание
+    metadata:
+      group: Общие вопросы
+rules:
+  - rule: Начало разговора
+    condition: []
+    steps:
+      - intent: get_started
+      - action: utter_QS--jBFiU0
+    metadata:
+      group: Общие вопросы
+  - rule: Непонимание
+    condition: []
+    steps:
+      - intent: nlu_fallback
+        entities: []
+      - action: utter_W_KuhHUXW
+    metadata:
+      group: Общие вопросы

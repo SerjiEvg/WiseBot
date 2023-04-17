@@ -1,0 +1,2408 @@
+stories:
+  - story: test_story_800QUBzqY
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: какая дата и номер сертификата фсб россии гост
+        intent: 03_дата_номер_сертификата_фсб_россии_гост
+      - action: utter_03_дата_номер_сертификата_фсб_россии_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_8aoherca3
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Во вкладке сертификаты не видно вкладки запросы
+        intent: 03_гост_нет_вкладки_запросы
+      - action: utter_03_гост_нет_вкладки_запросы
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Imlq-XPJd
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: появилось белое окно на криптоарм гост
+        intent: 03_ошибка_белое_окно_гост
+      - action: utter_03_ошибка_белое_окно_гост
+      - user: /03_криптоарм_гост1
+        intent: 03_криптоарм_гост1
+      - action: utter_03_ошибка_белое_окно_гост1
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_NwK-4hRTH
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как устранить проблему с сертификатом криптоарм 5
+        intent: 03_проблема_с_сертификатом_криптоарм_5
+      - action: utter_03_проблема_с_сертификатом_криптоарм_5
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_WVTmFGQeF
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как сформировать протокол проверки подписи
+        intent: 03_протокол_проверки_подписи_5
+      - action: utter_03_протокол_проверки_подписи_5
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_oW1yDzDF1
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: возникает ошибка подписи в криптоарм 5
+        intent: 03_ошибка_подписи_5
+      - action: utter_03_ошибка_подписи_5
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ysTxDkczF
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: не получается перенести лицензию на другой пк
+        intent: 03_перенос_лицензии
+      - action: utter_03_перенос_лицензии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_8AGh1oZqn
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как поменять кодировку на DER
+        intent: 03_параметры_операций
+      - action: utter_03_параметры_операций
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_fylYcpj9k
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: где найти информацию о системе криптоарм гост
+        intent: 03_информация_о_системе_криптоарм_гост
+      - action: utter_03_информация_о_системе_криптоарм_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_JoX4X51vE
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: для чего вводится местоположение
+        intent: 03_местоположение_в_заказе
+      - action: utter_03_местоположение_в_заказе
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_pGV4bbe60
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как продлить тестовую лицензию
+        intent: 02_тестовый_режим
+      - action: utter_02_тест
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_W1pL9XOsw
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: где найти время создания подписи
+        intent: 03_время_создания_подписи
+      - action: utter_03_время_создания_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Xg2EW0Yvj
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Сколько лет на рынке ваша компания?
+        intent: 02_существование
+      - action: utter_02_существование
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_g7DelzFVc
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: техподдержка по удаленке
+        intent: 03_техподдержка_по_удаленке
+      - action: utter_03_техподдержка_по_удаленке
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_k7S5Qrc_Z
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: удалить пароль
+        intent: 03_удалить_пароль
+      - action: utter_03_удалить_пароль
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_0xwd4mQ75
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: удалить пин-код
+        intent: 03_удалить_пароль
+      - action: utter_03_удалить_пароль
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_pYybAtfZy
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: отказано в доступе
+        intent: 03_5_отказано_в_доступе
+      - action: utter_03_5_отказано_в_доступе
+      - user: /03_5_крипт
+        intent: 03_5_крипт
+      - action: utter_03_5_отказано_в_доступе1
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_NRs9oK358
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: получение кэп
+        intent: 03_получение_кэп
+      - action: utter_03_получение_кэп
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_kCCf68Y7i
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: 'куда обратиться, если программа не отвечает'
+        intent: 03_программа_не_отвечает
+      - action: utter_03_программа_не_отвечает
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_bXZUraeQ7
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: не создается открепленная подпись
+        intent: 03_отличие_присоединенной_и_открепленной_подписи
+      - action: utter_03_отличие_присоединенной_и_открепленной_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_RhKy7YSjW
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: хочу ввести пароль для токена
+        intent: 03_пароль_для_токена
+      - action: utter_03_пароль_для_токена
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_AeCSX-yOv
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: являются ли лицензии уникальными
+        intent: 03_уникальность_лицензий
+      - action: utter_03_уникальность_лицензий
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story__q9gjrkz5
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: позволяет ли пробная версия проверить валидность ЭП
+        intent: 03_валидность_эп_проб
+      - action: utter_03_валидность_эп_проб
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Y4aSPEV4-
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: позволяет ли пробная версия проверить валидность ЭП
+        intent: 03_валидность_эп_проб
+      - action: utter_03_валидность_эп_проб
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_AZtv9GxzO
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: поддерживаются ли облачные ключи
+        intent: 03_облачная_эп
+      - action: utter_03_облачная_эп
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_cGfo8t8_3
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: не подтвердила заказ роботу
+        intent: 03_подтверждение_заказа_роботом
+      - action: utter_03_подтверждение_заказа_роботом
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_JR5zHHAO5
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: хочу предложить сотрудничество
+        intent: 03_предложения_о_сотрудничестве
+      - action: utter_03_предложения_о_сотрудничестве
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Rf0WRM5hB
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: имеется ли ограничение на размер файла
+        intent: 03_ограничение_на_размер_файлов
+      - action: utter_03_ограничение_на_размер_файлов
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ASJ7G5BO3
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: откуда скачать криптопро csp
+        intent: 03_скачать_криптопро_csp
+      - action: utter_03_скачать_криптопро_csp
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_m0zDuWpQN
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: вышлите коммерческое предложение
+        intent: 03_запрос_коммерческого_предложения
+      - action: utter_03_запрос_коммерческого_предложения
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Bm25557M5
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как подать заявление через мой арбитр
+        intent: 03_мой_арбитр
+      - action: utter_03_мой_арбитр
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_-EMr_VUtw
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как получить эцп
+        intent: 02_эцп
+      - action: utter_02_эцп
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_J-MQC5Xc5
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: не ставится галочка зарегистрирован
+        intent: 03_невозможно_поставить_галочку_зарегистрирован
+      - action: utter_03_невозможно_поставить_галочку_зарегистрирован
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_IVsxWAMp4
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как визуализировать ЭЦП в файле pdf.sig
+        intent: 03_визуализация_пдф
+      - action: utter_03_визуализация_пдф
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_EKvVCBn8l
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: не загружается модуль трастед крипто
+        intent: 03_не_загружен_модуль_трастед_крипто
+      - action: utter_03_не_загружен_модуль_трастед_крипто
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_CjwfR2kAh
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          инструкция для решения проблемы нет полного доверия к сертификату
+          подписи
+        intent: 03_инстр_нет_полного_доверия
+      - action: utter_03_инстр_нет_полного_доверия
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_SCqlKAtif
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: инструкция по экспорту сертификата в файл
+        intent: 03_инстр_экспорт_сертификата_в_файл
+      - action: utter_03_инстр_экспорт_сертификата_в_файл
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_p4jeC_T53
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как формируется пэп подпись
+        intent: 02_пэп
+      - action: utter_02_пэп
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_9xJLCpdN_
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: что делает штамп времени
+        intent: 02_штамп_времени
+      - action: utter_02_штамп_времени
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_MqpKrnA1D
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: штамп времени
+        intent: 02_штамп_времени
+      - action: utter_02_штамп_времени
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_MMN6xDAD3
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: что такое single dign-on
+        intent: 02_single
+      - action: utter_02_single
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_HdK9DW2JV
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: усовершенствованная подпись
+        intent: 02_усовершенствованная_подпись
+      - action: utter_02_усовершенствованная_подпись
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Ln4CG-R_1
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: отпечаток ключа
+        intent: 02_отпечаток_ключа
+      - action: utter_02_отпечаток_ключа
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_loW2p09q1
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: сферы применения гост
+        intent: 02_сферы_криптоарм_гост
+      - action: utter_02_сферы_криптоарм_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Xd1apiCZ8
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: с какими операционными системами работает криптоарм випнет
+        intent: 02_ос_випнет
+      - action: utter_02_ос_випнет
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_sI6Ifmtg6
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: ты кто
+        intent: 02_чат-бот
+      - action: utter_02_чат-бот
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_IykRuhC6e
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: какие криптографические операции выполняет trusted tls
+        intent: 02_операции_тлс
+      - action: utter_02_операции_тлс
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_TGyaHGSWZ
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          как подписать документ pdf таким образом, чтобы в нем отражалась
+          печать
+        intent: 03_визуализация_гост
+      - action: utter_03_визуализация_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_QpK23mrGw
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Как скачать попробовать Крипто АРМ ГОСТ
+        intent: 03_скачать_гост
+      - action: utter_03_скачать_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_-zM9pq5ld
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: откуда скачать КриптоАРМ ГОСТ для Android
+        intent: 03_гост_для_андроид
+      - action: utter_03_гост_для_андроид
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_2c7FUK07z
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: КриптоАРМ ГОСТ для Android
+        intent: 03_гост_для_андроид
+      - action: utter_03_гост_для_андроид
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_GYxhpoMbb
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: какой тип аутентификации у вас настроен для exchange?
+        intent: 03_тип_аутентификации_гост
+      - action: utter_03_тип_аутентификации_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_9T5EIZCMe
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Во время расшифровывания возникла ошибка
+        intent: 03_ошибка_расшифрования
+      - action: utter_03_ошибка_расшифрования
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_jHm0UtGNM
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: в 2 версии КриптоАРМ ГОСТ на unix системах отсутствуют сертификаты
+        intent: 03_гост_юникс_отсутствуют_сертификаты
+      - action: utter_03_гост_юникс_отсутствуют_сертификаты
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_zpPcyxEyn
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как скачать версию криптоарм старт
+        intent: 03_скачать_старт
+      - action: utter_03_скачать_старт
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_dBlAFAiof
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: стоимость лицензии на криптоарм 5
+        intent: 03_цена_криптоарм_5
+      - action: utter_03_цена_криптоарм_5
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_jtesUtA0w
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: проблема с проверкой подписи
+        intent: 03_некорректность_подписи_5
+      - action: utter_03_некорректность_подписи_5
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_kE6c3gL3o
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: сформировать запрос на сертификат
+        intent: 03_сформировать_запрос_на_сертификат
+      - action: utter_03_сформировать_запрос_на_сертификат
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_7sFQ2Ne3W
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как добавить сертификат подписи в ГОСТ Почта?
+        intent: 03_импорт_сертификата
+      - action: utter_03_импорт_сертификата
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_vP7BmJUJk
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как подписать документ вашей программой
+        intent: 03_подписать_файл
+      - action: utter_03_подписать_файл
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_rfB9XIMnU
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: установка лицензии
+        intent: 03_установка_лицензии
+      - action: utter_03_установка_лицензии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Qh0Rw20LB
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как активировать лицензию
+        intent: 03_установка_лицензии
+      - action: utter_03_установка_лицензии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_YW8o-1V8J
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: вышлите счет
+        intent: 03_запрос_счета
+      - action: utter_03_запрос_счета
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_8RC37T-SF
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: 'Документы, закрывающие в Диадок'
+        intent: 03_способы_получения_бухгалтерских_документов
+      - action: utter_03_способы_получения_бухгалтерских_документов
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_HgwjVNDSO
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как можно продлить лицензию
+        intent: 03_покупка_лицензии
+      - action: utter_03_покупка_лицензии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Ppd_stmhu
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: обновление сборки
+        intent: 03_обновление_сборки
+      - action: utter_03_обновление_сборки
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_y90TY707g
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: техподдержка по удаленке
+        intent: 03_техподдержка_по_удаленке
+      - action: utter_03_техподдержка_по_удаленке
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_wyqDy3ne9
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: В какие сроки и куда будет доставлена лицензия на КРИПТО АРМ?
+        intent: 03_получение_лицензии
+      - action: utter_03_получение_лицензии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_xbhOT34RU
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: не работает режим квалифицированной подписи
+        intent: 03_не_работает_режим_квалифицированной_подписи
+      - action: utter_03_не_работает_режим_квалифицированной_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ctbUgTPxx
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Онлайн сейчас нельзя проверить подпись документа?
+        intent: 03_онлайн_проверка_подписи
+      - action: utter_03_онлайн_проверка_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_o1pVrytBr
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          Добрый день! Нам необходимо подписывать PDF документы для Госуслуг.
+          Какой продукт нам подойдет?
+        intent: 03_любой_криптоарм
+      - action: utter_03_любой_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_OtGTqSwG5
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: мне нужна помощь
+        intent: 03_техническая_проблема
+      - action: utter_03_техническая_проблема
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_kOL0mM1G7
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: формулярр для криптоарм гост
+        intent: 03_формуляр_для_гост
+      - action: utter_03_формуляр_для_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_nvplRdxsX
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Цепочка недействительна
+        intent: 03_красный_статус_гост
+      - action: utter_03_красный_статус_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_lqTra1LaL
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: ошибка подписи КриптоАРМ ГОСТ
+        intent: 03_ошибка_подписи_криптоарм_гост
+      - action: utter_03_ошибка_подписи_криптоарм_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_gctBbpq71
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: В полях сертификата вместо букв знаки вопроса
+        intent: 03_ошибка_вместо_букв_знаки_вопроса_гост
+      - action: utter_03_ошибка_вместо_букв_знаки_вопроса_гост
+      - user: /03_криптоарм_гост7
+        intent: 03_криптоарм_гост7
+      - action: utter_03_ошибка_вместо_букв_знаки_вопроса_гост1
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_FYDSJKYLd
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Apple не может проверить его на наличие вредоносного ПО
+        intent: 03_ошибка_не_устанав_mac_гост
+      - action: utter_03_ошибка_не_устанав_mac_гост
+      - user: /03_криптоарм_гост6
+        intent: 03_криптоарм_гост6
+      - action: utter_03_ошибка_не_устанав_mac_гост1
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_yXjMTjby5
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Ошибка при записи в файл
+        intent: 03_ошибка_записи_в_файл_гост
+      - action: utter_03_ошибка_записи_в_файл_гост
+      - user: /03_криптоарм_гост5
+        intent: 03_криптоарм_гост5
+      - action: utter_03_ошибка_записи_в_файл_гост1
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_eEt9KV8T9
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Не удалось получить сертификат сервиса
+        intent: 03_ошибка_сертификат_сервиса_гост
+      - action: utter_03_ошибка_сертификат_сервиса_гост
+      - user: /03_криптоарм_гост4
+        intent: 03_криптоарм_гост4
+      - action: utter_03_ошибка_сертификат_сервиса_гост1
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_8PcNjSCjz
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Не обнаружены сертификаты с привязкой к ключевому контейнеру
+        intent: 03_ошибка_ключ_контейнер_гост
+      - action: utter_03_ошибка_ключ_контейнер_гост
+      - user: /03_криптоарм_гост3
+        intent: 03_криптоарм_гост3
+      - action: utter_03_ошибка_ключ_контейнер_гост1
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_erI6RlD1s
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: При выполнении операции возникла ошибка
+        intent: 03_ошибка_операции_гост
+      - action: utter_03_ошибка_операции_гост
+      - user: /03_криптоарм_гост2
+        intent: 03_криптоарм_гост2
+      - action: utter_03_ошибка_операции1
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_o9_8_JYlS
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Почему не устанавливается КриптоАРМ 5?
+        intent: 03_ошибка_установки_криптоарм
+      - action: utter_03_ошибка_установки_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_h-TPOJTGz
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: главное окно не отвечает
+        intent: 03_главное_окно_не_отвечает_5
+      - action: utter_03_главное_окно_не_отвечает_5
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_QKI6bqasd
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: дистрибутив криптоарм стандарт плюс
+        intent: 03_дистрибутив_стандарт_плюс
+      - action: utter_03_дистрибутив_стандарт_плюс
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_zhQPnJUo8
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Счёт по ЭДО высылали?
+        intent: 03_документы_по_эдо
+      - action: utter_03_документы_по_эдо
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_QrQoR2DYC
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: хочу подать декларацию в ФСРАР
+        intent: 03_декларация_в_фсрар
+      - action: utter_03_декларация_в_фсрар
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_p6ARZYr4P
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: в информации о системе лицензия недействительна
+        intent: 03_информация_о_системе_криптоарм_гост
+      - action: utter_03_информация_о_системе_криптоарм_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_tqco2s5eM
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: неправильный тип файла
+        intent: 03_неправильный_тип_файла
+      - action: utter_03_неправильный_тип_файл
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_KRVpDBTKH
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          при формировании запроса на сертификат на шаге выбрать шаблон, какой
+          шаблон нам выбрать
+        intent: 03_запрос_на_сертификат
+      - action: utter_03_запрос_на_сертификат
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_9ojaWa5z1
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: передача документов ФИС ФРДО
+        intent: 03_фис_фрдо
+      - action: utter_03_фис_фрдо
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_2wPVz_pN_
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: для оплаты нужны документы
+        intent: 03_постоплата
+      - action: utter_03_постоплата
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_kJsdsDYeg
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Где можно скачать Криптоарм под Astra Linux?
+        intent: 03_для_mac_os
+      - action: utter_03_для_mac_os
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_a0RDXHUMC
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Для работы с судами стандарт плюс подойдет?
+        intent: 03_выбор_версии
+      - action: utter_03_выбор_версии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_d_-na9l5E
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: для чего нужны КриптоПро TSP КриптоПро OCSP
+        intent: 03_покупка_доп_лицензий
+      - action: utter_03_покупка_доп_лицензий
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_wwaY204Os
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Нужен адрес службы штампов времени
+        intent: 03_ссылки_штампа_времени
+      - action: utter_03_ссылки_штампа_времени
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_U8In0ze_i
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: возникла ошибка подписи со штампом времени
+        intent: 03_ошибка_подписи_со_штампом_времени
+      - action: utter_03_ошибка_подписи_со_штампом_времени
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_vSYGc71nQ
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как скачать программу
+        intent: 03_скачать_программу
+      - action: utter_03_скачать_программу
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_fW39Vp10L
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: оплата от другого плательщика
+        intent: 03_оплата_от_другого_плательщика
+      - action: utter_03_оплата_от_другого_плательщика
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_mS4X9EyB8
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: можно ли использовать лицензию на двух разных ноутбуках
+        intent: 03_использование_лицензии
+      - action: utter_03_использование_лицензии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_QCJX_IdaM
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как открыть сертификат на компьютере
+        intent: 03_открыть_сертификат_на_компьютере
+      - action: utter_03_открыть_сертификат_на_компьютере
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_q-kdgCV-U
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: свидетельство о регистрации ПО
+        intent: 03_свидетельство_от_роспатента
+      - action: utter_03_свидетельство_от_роспатента
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_n1BMulMP-
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: нужна лицензия на юрлицо как сформировать счет
+        intent: 03_заказ_на_юрлицо
+      - action: utter_03_заказ_на_юрлицо
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_0jrf6N0KzR
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: нужна лицензия на юрлицо как сформировать счет
+        intent: 03_заказ_на_юрлицо
+      - action: utter_03_заказ_на_юрлицо
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_11hluh-v0
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: перечень продуктов криптоарм
+        intent: 03_перечень_продуктов
+      - action: utter_03_перечень_продуктов
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_VT1d3R8_H
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: где я могу получить сертификат электронной подписи
+        intent: 03_получение_сертификата_эп
+      - action: utter_03_получение_сертификата_эп
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_D1DpTfsPk
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: нет доверия ко всем трем сертификатам в списке
+        intent: 03_нет_доверия_подписи
+      - action: utter_03_нет_доверия_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_xKSJWcvk7
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: эп не подтверждена
+        intent: 03_эп_не_подтверждена
+      - action: utter_03_эп_не_подтверждена
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_bmi2eR3Ue
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: отче о проверке подписи
+        intent: 03_протокол_проверки_подписи_5
+      - action: utter_03_протокол_проверки_подписи_5
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_pDsiO_nzT
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как создать отчет о проверке подписи
+        intent: 03_отчет_о_проверке_подписи
+      - action: utter_03_отчет_о_проверке_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_pRcdkj4i2
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Как создать открепленную подпись
+        intent: 03_создать_открепленную_подпись
+      - action: utter_03_создать_открепленную_подпись
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story__D9KR3XZB
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Подписать pdf внутри
+        intent: 03_подписать_пдф
+      - action: utter_03_подписать_пдф
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_jml7xkzW4
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Откуда берется список TSL
+        intent: 03_список_тсл
+      - action: utter_03_список_тсл
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_rfB46XgcY
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Не создается подпись на мак ос на виндовс тест проходит
+        intent: 03_не_создается_подпись_mac
+      - action: utter_03_не_создается_подпись_mac
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_kyJx3ewE_
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Как получить версию Криптоарм 5 для АльтЛинукс
+        intent: 03_альтлинукс_для_криптоарм
+      - action: utter_03_альтлинукс_для_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_KafGETOlZ
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Дистрибутив КриптоАРМ ГОСТ 3 под ОС версии x86?
+        intent: 03_дистрибутив_гост3
+      - action: utter_03_дистрибутив_гост3
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ZuijbzULE
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Не можем найти в описании тихую установку КриптоАРМ
+        intent: 03_тихая_установка_криптоарм
+      - action: utter_03_тихая_установка_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_bKhy7ydHh
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Удаление КриптоАРМ в тихом режиме
+        intent: 03_тихое_удаление_криптоарм
+      - action: utter_03_тихое_удаление_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_eJdg6Tw86
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: отсутствует личный сертификат
+        intent: 03_отсутствует_личный_сертификат
+      - action: utter_03_отсутствует_личный_сертификат
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_LGMAZsCp2
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как подписать с подписью внутри
+        intent: 03_подписать_пдф
+      - action: utter_03_подписать_пдф
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story__TiYAUQo_
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Как онлайн купить Крипто АРМ
+        intent: 03_оформление_заказа
+      - action: utter_03_оформление_заказа
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_eLKF9MDJc
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: оптовая цена
+        intent: 03_скидки
+      - action: utter_03_скидки
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_PZruDhpbr
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: проверка подписи после истечения срока действия ключа
+        intent: 03_проверка_подписи_после_истечения_срока_действия_ключа
+      - action: utter_03_проверка_подписи_после_истечения_срока_действия_ключа
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_nwQtDU7o9
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: работа без интернета
+        intent: 03_работа_без_интернета
+      - action: utter_03_работа_без_интернета
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_4uWwoixIi
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: формат подписи
+        intent: 03_формат_подписи
+      - action: utter_03_формат_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_X6zWvc9SF
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: подписание электронных писем
+        intent: 03_подписание_электронных_писем
+      - action: utter_03_подписание_электронных_писем
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_KebhLI1_0
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: удаление КриптоАРМ 5
+        intent: 03_удаление_криптоарм
+      - action: utter_03_удаление_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_eivIwR7ls
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Внутренняя ошибка CSP
+        intent: 03_внутренняя_ошибка_цсп
+      - action: utter_03_внутренняя_ошибка_цсп
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_CrVMc0nXJ
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: доступность ключей локального хранилища компьютера
+        intent: 03_доступность_ключей_локального_хранилища
+      - action: utter_03_доступность_ключей_локального_хранилища
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Z-iGRuzeI
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: внедрение на портал Битрикс24
+        intent: 03_внедрение_на_портал_битрикс24
+      - action: utter_03_внедрение_на_портал_битрикс24
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_W9UIO6Ij2
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: модуль КриптоПро PDF распространяется бесплатно
+        intent: 03_модуль_криптопро_пдф
+      - action: utter_03_модуль_криптопро_пдф
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_h1C8BqE9d
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: установить сертификат сайта
+        intent: 03_инстр_установить_сертификат_сайта
+      - action: utter_03_инстр_установить_сертификат_сайта
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_l9Xz_QfBe
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          Добрый день! Можете помочь с инструкцией по созданию самоподписанного
+          сертификата в КриптоАрм?
+        intent: 03_инстр_как_создать_самоподписанный_сертификат
+      - action: utter_03_инстр_как_создать_самоподписанный_сертификат
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_3pAyKIrdx
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: перенести сертификаты на другой компьютер
+        intent: 03_инстр_перенос_сертификата
+      - action: utter_03_инстр_перенос_сертификата
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_zrXNhPv9Q
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: нужна инструкция по сдаче отчета в центробанк
+        intent: 03_инстр_для_работы_с_личным_кабинетом_банка_россии
+      - action: utter_03_инстр_для_работы_с_личным_кабинетом_банка_россии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_IgeXMLpQq
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Откуда скачать сертификат ФСРАР
+        intent: 03_инстр_подпись_в_фсрар
+      - action: utter_03_инстр_подпись_в_фсрар
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_C71nWLyLO
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Как установить сертификат при помощи Крипто Арм?
+        intent: 03_инстр_установка_криптоарм
+      - action: utter_03_инстр_установка_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_7eGHIQNwq
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: инструкция по уссановке лицензии на криптоарм гост
+        intent: 03_инстр_установка_лицензии_гост
+      - action: utter_03_инстр_установка_лицензии_гост
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_90snT48sx
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: инструкция по оплате картой
+        intent: 03_инстр_оплата_картой
+      - action: utter_03_инстр_оплата_картой
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_MKQvT0bZY
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как удалить криптоарм
+        intent: 03_инстр_удаление_криптоарм
+      - action: utter_03_инстр_удаление_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_bDr3pbKUV
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: стать партнером
+        intent: 03_стать_партнером
+      - action: utter_03_стать_партнером
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_GLx-3P0JN
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Как оформить заказ
+        intent: 03_инстр_оформ_заказ
+      - action: utter_03_инстр_оформ_заказ
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_im8Nd9FJy
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          Лицензия на программу Крипто Арм устанавливается на один компьютер или
+          можно на несколько?
+        intent: 03_устанавливается_на_один
+      - action: utter_03_устанавливается_на_один
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_m9BO-uW1U
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как добавить крипто арм в меню под правую кнопку мышки?
+        intent: 03_контекстное_меню
+      - action: utter_03_контекстное_меню
+    metadata:
+      group: Информация по заказу(формы)
+      language: ru
+  - story: test_story_31s-ZBLmo
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          в программе КриптоАрм при указании каталогов для хранения файлов
+          допустимы относительные пути
+        intent: 03_относительные_пути_хранения_файлов
+      - action: utter_03_относительные_пути_хранения_файлов
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_codPo3PLu
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: сколько можно одновременно подписать файлов в криптоарм гост
+        intent: 03_ограничение_на_размер_файлов
+      - action: utter_03_ограничение_на_размер_файлов
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_NwHzzk778
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: имеется ли в КриптоАрм Гост создать запрос на TLS-сертификат?
+        intent: 03_запрос_на_тлс_сертификат
+      - action: utter_03_запрос_на_тлс_сертификат
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_-zjTZ0YYk
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Интересует возможность установки СКЗИ на операционной системе iOS
+        intent: 03_криптопро_для_ios
+      - action: utter_03_криптопро_для_ios
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_3zA-niOib
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: добавить подпись в КриптоАРМ 5
+        intent: 03_добавление_подписи
+      - action: utter_03_добавление_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_0mN66DTs1
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: А как узнать сборку крипто про?
+        intent: 03_встроенная_лицензия_криптопро
+      - action: utter_03_встроенная_лицензия_криптопро
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_0sY9LrkCA
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как удалить сертификат
+        intent: 03_удаление_сертификата
+      - action: utter_03_удаление_сертификата
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_WIX4DtVK9
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: количество сертификатов для подписи
+        intent: 03_количество_сертификатов_для_подписи
+      - action: utter_03_количество_сертификатов_для_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_IN5r5D3_w
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: нет лицензии на КриптоПро CSP
+        intent: 03_покупка_криптопро_csp
+      - action: utter_03_покупка_криптопро_csp
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_5lUcMdg1S
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как увидеть штамп времени
+        intent: 03_архивное_хранение_документов
+      - action: utter_03_архивное_хранение_документов
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_vpFbEKpPA
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Мне нужно подписать документ с подписью sig
+        intent: 03_подпись_формата_sig
+      - action: utter_03_подпись_формата_sig
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_6dr_jhKvq
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: сертифицированный криптоарм
+        intent: 03_сертифицированный_криптоарм
+      - action: utter_03_сертифицированный_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_7QmxdS7Q2
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: подписать договор в электронном виде
+        intent: 03_можно_ли_подписать_документы_электронно
+      - action: utter_03_можно_ли_подписать_документы_электронно
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_E32WGULdL
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как зашифровать файлы
+        intent: 03_шифрование_файлов
+      - action: utter_03_шифрование_файлов
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Kg21DW6ke
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как открыть расшифрованный файл
+        intent: 03_как_открыть_расшифрованный_файл
+      - action: utter_03_как_открыть_расшифрованный_файл
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_nSMz31SXK
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Дайте промокод?
+        intent: 03_промокод
+      - action: utter_03_промокод
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_fG7G9kqv8
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как извлечь файл из программы
+        intent: 03_как_извлечь_файл_из_программы
+      - action: utter_03_как_извлечь_файл_из_программы
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_OHRplmbqP
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: автоматизация подписи и шифрования
+        intent: 03_встраивание_подписи_в_систему
+      - action: utter_03_встраивание_подписи_в_систему
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_cd58HJw6-
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          Ошибка синхронизации почтового аккаунта.
+          FetchMailWithImapForAllFolders: Ошибка соединения. Code 1
+        intent: 03_ошибка_синхронизации_гост_3
+      - action: utter_03_ошибка_синхронизации_гост_3
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_7l3LTwCCw
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: проверка подписи в КриптоАРМ ГОСТ 3
+        intent: 03_проверка_подписи_гост_3
+      - action: utter_03_проверка_подписи_гост_3
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_MN32GYsn3
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как узнать номер заказа
+        intent: 03_как_узнать_номер_заказа
+      - action: utter_03_как_узнать_номер_заказа
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_NVIcp1wu8
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: подпись в одном файле
+        intent: 03_подпись_в_одном_файле
+      - action: utter_03_подпись_в_одном_файле
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_1lNP0cXBm
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: купил лицензию где скачать
+        intent: 03_купил_лицензию
+      - action: utter_03_купил_лицензию
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_VFf7jeBdq
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: нужна эцп
+        intent: 03_нужна_эцп
+      - action: utter_03_нужна_эцп
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_bm_cYCuTK
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как осуществляется КРИПТО АРМ на сервере
+        intent: 03_криптоарм_сервер
+      - action: utter_03_криптоарм_сервер
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_Z1Avdi7fO
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: оплатить по ссылке
+        intent: 03_оплатить_картой
+      - action: utter_03_оплатить_картой
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_YgyrfkZ8w
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: в корзине лишние продукты
+        intent: 03_в_корзине_лишние_продукты
+      - action: utter_03_в_корзине_лишние_продукты
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_bqiE2XGqs
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: расшифровать файл
+        intent: 03_расшифровать_файл
+      - action: utter_03_расшифровать_файл
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_1lxuTlj93
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Чем отличаются Сертифицированная версия и релизная версия?
+        intent: 03_отличие_сертифицированной_и_релизной
+      - action: utter_03_отличие_сертифицированной_и_релизной
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_OGgJZEoSE
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: машиночитаемая доверенность
+        intent: 03_машиночитаемая_доверенность
+      - action: utter_03_машиночитаемая_доверенность
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_iz3zb5fO2
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: поддерживает ли КриптоАрм ГОСТ 3 работу с носителем etoken?
+        intent: 03_поддержка_носителей_криптоарм
+      - action: utter_03_поддержка_носителей_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_6_fNsRayb
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Очень долго подписывает документы. Как сократить время подписи?
+        intent: 03_долго_подписывает
+      - action: utter_03_долго_подписывает
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_n6RT0Pn0V
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: переустановили систему
+        intent: 03_переустановили_систему
+      - action: utter_03_переустановили_систему
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_2JjCplAje
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: программа для росреестра
+        intent: 03_программа_для_росреестра
+      - action: utter_03_программа_для_росреестра
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ChkolJfuo
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Получить сертификат через сервис УЦ
+        intent: 03_получить_сертификат_через_сервис_уц
+      - action: utter_03_получить_сертификат_через_сервис_уц
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_WIvVNcIfT
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: установить сертификат контрагента
+        intent: 03_установка_сертификатов_других_пользователей
+      - action: utter_03_установка_сертификатов_других_пользователей
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_pKtNJIrpi
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: выбор файлов для добавления подписи
+        intent: 03_выбор_файлов_для_добавления_подписи
+      - action: utter_03_выбор_файлов_для_добавления_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_-I6N2BLk6
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          крипто арм гост бета версия на 14 дней работает или лучше какую то
+          другую версию скачать ?
+        intent: 03_есть_ли_версия_бета
+      - action: utter_03_есть_ли_версия_бета
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_el8h57rDG
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: документы по мобилизации
+        intent: 03_документы_по_мобилизации
+      - action: utter_03_документы_по_мобилизации
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_4M3fUtptA
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: подписать архив
+        intent: 03_подписать_архив
+      - action: utter_03_подписать_архив
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_h76nfxxuB
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: КриптоАРМ на диске
+        intent: 03_криптоарм_на_диске
+      - action: utter_03_криптоарм_на_диске
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_CSA9k7R_v
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: >-
+          Какой минимальный комплект лицензий необходим для работы с электронной
+          подписью?
+        intent: 03_миним_набор_программ_для_подписи
+      - action: utter_03_миним_набор_программ_для_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_xZmHiCoWO
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: не установились модули TSP OCSP
+        intent: 03_не_установились_модули_tsp_ocsp
+      - action: utter_03_не_установились_модули_tsp_ocsp
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_hU5bN5EqK
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: можно ли добавить штамп времени к подписи после ее подписания?
+        intent: 03_добавление_подписи_после_подписания
+      - action: utter_03_добавление_подписи_после_подписания
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_d4CaLTxDe
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: какая архитектура КриптоАРМ
+        intent: 03_архитектура_криптоарм
+      - action: utter_03_архитектура_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_4K0aUSjqQ
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: файл поврежден
+        intent: 03_файл_поврежден
+      - action: utter_03_файл_поврежден
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_DrMHZUM2f
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: автоматизировать процесс подписи
+        intent: 03_автоматизировать_процесс_подписи
+      - action: utter_03_автоматизировать_процесс_подписи
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_eZ1WjP35-
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как скачать КриптоПро Office Signature
+        intent: 03_криптопро_office_signature
+      - action: utter_03_криптопро_office_signature
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_l_X1FY69T
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: возможно расшифровать КриптоАРМ ГОСТ формат p7m?
+        intent: 03_формат_p7m
+      - action: utter_03_формат_p7m
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_022uMULgY
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: КриптоАРМ Документы
+        intent: 03_криптоарм_документы
+      - action: utter_03_криптоарм_документы
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_OKBKfosRS
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Можно ли купить лицензию на меньший срок
+        intent: 03_миним_срок_действия_лицензии
+      - action: utter_03_миним_срок_действия_лицензии
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ZnBOWW_lc
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: как войти в личный кабинет
+        intent: 03_как_войти_в_личный_кабинет
+      - action: utter_03_как_войти_в_личный_кабинет
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_E8zxYskKn
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: лицензионное соглашение КриптоАРМ
+        intent: 03_лицензионное_соглашение_криптоарм
+      - action: utter_03_лицензионное_соглашение_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ZfLMfv41b
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: лицензионное соглашение КриптоАРМ
+        intent: 03_лицензионное_соглашение_криптоарм
+      - action: utter_03_лицензионное_соглашение_криптоарм
+      - user: лицензия на осуществление деятельности
+        intent: 03_свидетельство_о_регистрации_по
+      - action: utter_03_свидетельство_о_регистрации_по
+      - user: окно с желтым восклицательным знаком при установке сертификата
+        intent: 03_окно_с_желтым_воскл_знаком
+      - action: utter_03_окно_с_желтым_воскл_знаком
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ttkbq5O_i
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: хэш-сумма дистрибутива
+        intent: 03_хэш_сумма_дистрибутива
+      - action: utter_03_хэш_сумма_дистрибутива
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_ENR2bignw
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: подписать в Adobe Acrobat
+        intent: 03_подписать_в_adobe_acrobat
+      - action: utter_03_подписать_в_adobe_acrobat
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_MqzrBge1p
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Скачать КриптоАРМ ГОСТ 3
+        intent: 03_скачать_криптоарм_гост_3
+      - action: utter_03_скачать_криптоарм_гост_3
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_pV8bh9iJb
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: КриптоАРМ ГОСТ 3 для ФНС
+        intent: 03_криптоарм_гост_3_для_фнс
+      - action: utter_03_криптоарм_гост_3_для_фнс
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_IvU5_oo02
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Обновление csp до 5.0
+        intent: 03_обновление_криптопро_с_4_до_5
+      - action: utter_03_обновление_криптопро_с_4_до_5
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_4psTGuwt5
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: ввод лицензии в КриптоПро
+        intent: 03_ввод_лицензии_в_криптопро
+      - action: utter_03_ввод_лицензии_в_криптопро
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_zzcLhA4NG
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: исключительные права
+        intent: 03_исключительные_права
+      - action: utter_03_исключительные_права
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_cGtdDLvul
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: срок действия сертификата
+        intent: 03_срок_действия_сертификата
+      - action: utter_03_срок_действия_сертификата
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_NafC8gbao
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: каким ключом создается подпись
+        intent: 03_каким_ключом_создается_подпись
+      - action: utter_03_каким_ключом_создается_подпись
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_YGQNvPLNT
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: проверить sgn
+        intent: 03_проверить_sgn
+      - action: utter_03_проверить_sgn
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_9NJnObxOF
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: убрать подпись с файла
+        intent: 03_удалить_подпись
+      - action: utter_03_удалить_подпись
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_rN_rgCUWv
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: купито токен
+        intent: 03_купить_токен
+      - action: utter_03_купить_токен
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_z6TZ3zo1G
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Отсутствует закрытый ключ
+        intent: 03_отсутствует_закрытый_ключ
+      - action: utter_03_отсутствует_закрытый_ключ
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story__xUcgfylP
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: сообщите ссылку на скачивание ремувера
+        intent: 03_утилита_удаления_криптоарм
+      - action: utter_03_утилита_удаления_криптоарм
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_7GrvgD-6C
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Здравствуйте! Можно ли установить программу в облако?
+        intent: 03_установка_в_облако
+      - action: utter_03_установка_в_облако
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_DHL8aU09q
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Как открыть в вашей программе файл формата .sig
+        intent: 03_открыть_подписаннный_файл
+      - action: utter_03_открыть_подписанный_файл
+    metadata:
+      group: Тесты 2
+      language: ru
+  - story: test_story_gTCog7sxL
+    steps:
+      - user: /get_started
+        intent: get_started
+      - action: utter_51dJHZ7LF
+      - user: Объект или свойство не найдено
+        intent: 03_5_ошибка_установки_свойств
+      - action: utter_03_5_ошибка_установки_свойств
+      - user: /03_5_крипт12
+        intent: 03_5_крипт12
+      - action: utter_03_5_ошибка_установки_свойств1
+    metadata:
+      group: Тесты 2
+      language: ru

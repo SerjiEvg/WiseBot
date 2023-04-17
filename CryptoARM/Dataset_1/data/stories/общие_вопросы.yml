@@ -1,0 +1,81 @@
+stories:
+  - story: 01_без_ответа
+    steps:
+      - intent: utter_default
+        entities: []
+      - action: utter_01_без_ответа
+    metadata:
+      group: Общие вопросы
+  - story: 01_оценка
+    steps:
+      - intent: 01_хорошая оценка
+        entities: []
+      - action: utter_01_хорошая_оценка
+      - intent: 01_плохой
+        entities: []
+      - action: utter_01_плохой
+    metadata:
+      group: Общие вопросы
+  - story: 01_подтверждение
+    steps:
+      - intent: 01_подтверждение_да
+        entities: []
+      - action: utter_01_подтверждение_да
+      - intent: 01_подтверждение_нет
+        entities: []
+      - action: utter_01_подтверждение_нет
+      - intent: 01_поговори_со_мной
+        entities: []
+      - action: utter_01_поговори_со_мной
+      - intent: 01_ответ_на_вопрос
+        entities: []
+      - action: utter_01_ответ_на_вопрос
+      - intent: 01_неправильный_диалог
+        entities: []
+      - action: utter_01_неправильный_диалог
+      - intent: 01_правильность
+        entities: []
+      - action: utter_01_правильность
+    metadata:
+      group: Общие вопросы
+  - story: 01_пока
+    steps:
+      - intent: 01_пока
+        entities: []
+      - action: utter_01_пока
+    metadata:
+      group: Общие вопросы
+  - story: 01_приветствие
+    steps:
+      - intent: 01_приветствие
+        entities: []
+      - action: utter_01_приветствие
+      - intent: 01_давай
+        entities: []
+      - action: utter_01_давай
+    metadata:
+      group: Общие вопросы
+  - story: 01_спасибо
+    steps:
+      - intent: 01_спасибо
+        entities: []
+      - action: utter_01_спасибо
+    metadata:
+      group: Общие вопросы
+rules:
+  - rule: Начало разговора
+    condition: []
+    steps:
+      - intent: get_started
+        entities: []
+      - action: utter_51dJHZ7LF
+    metadata:
+      group: Общие вопросы
+  - rule: Непонимание
+    condition: []
+    steps:
+      - intent: nlu_fallback
+        entities: []
+      - action: utter_непонимание
+    metadata:
+      group: Общие вопросы

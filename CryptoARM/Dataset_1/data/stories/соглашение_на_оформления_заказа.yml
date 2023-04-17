@@ -1,0 +1,9 @@
+stories:
+  - story: 08 Отказ
+    steps:
+      - intent: 08_нет
+        entities: []
+      - action: utter_sMF3VSfK4
+    metadata:
+      group: Соглашение на оформления заказа
+rules: []

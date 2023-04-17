@@ -1,0 +1,36 @@
+stories:
+  - story: 07 выбор
+    steps:
+      - intent: 07_выбор1
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор2
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор3
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор4
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор5
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор6
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор7
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор8
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор9
+        entities: []
+      - action: action_get_product
+      - intent: 07_выбор10
+        entities: []
+      - action: action_get_product
+    metadata:
+      group: Выбор товара
+rules: []

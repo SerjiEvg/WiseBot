@@ -1,0 +1,49 @@
+stories:
+  - story: Бух документы
+    steps:
+      - intent: 03_закрывающие_документы
+        entities: []
+      - action: action_form_set_type_stamp_1
+      - action: status_order_form
+      - active_loop: status_order_form
+      - active_loop: null
+      - action: action_form_set_type_request_documents
+    metadata:
+      group: Информация по заказу(формы)
+  - story: Доставка
+    steps:
+      - intent: 03_заказ_физическая_доставка
+        entities: []
+      - action: action_form_set_type_stamp_2
+      - action: status_order_form
+      - active_loop: status_order_form
+      - active_loop: null
+      - action: action_form_set_type_request_delivery
+    metadata:
+      group: Информация по заказу(формы)
+  - story: Лицензия
+    steps:
+      - intent: 03_получение_заказа_электронная
+        entities: []
+      - action: action_form_set_type_stamp_3
+      - action: status_order_form
+      - active_loop: status_order_form
+      - active_loop: null
+      - action: action_form_set_type_request_lic
+    metadata:
+      group: Информация по заказу(формы)
+  - story: Статус заказа
+    steps:
+      - or:
+          - intent: 03_номер_заказа
+            entities: []
+          - intent: 03_информация_по_заказу
+            entities: []
+      - action: action_form_check_order_id
+      - action: get_data_order_form
+      - active_loop: get_data_order_form
+      - active_loop: null
+      - action: action_form_get_status_order_all
+    metadata:
+      group: Информация по заказу(формы)
+rules: []

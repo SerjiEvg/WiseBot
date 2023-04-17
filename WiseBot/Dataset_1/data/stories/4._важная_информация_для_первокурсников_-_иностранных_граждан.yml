@@ -1,0 +1,79 @@
+stories:
+  - story: 4.1. Решение первоочередных вопросов
+    steps:
+      - intent: 4_1_первые_шаги
+        entities: []
+      - action: utter_4_1_первые_шаги
+      - intent: 4_1_работа_иностранному_студенту
+        entities: []
+      - action: utter_4_1_работа_иностранному_студенту
+      - intent: 4_1_порядок_заселения_иностранцев
+        entities: []
+      - action: utter_4_1_порядок_заселения_иностранцев
+      - intent: 4_1_трансфер
+        entities: []
+      - action: utter_4_1_трансфер
+      - intent: 4_1_организация_транспорта
+        entities: []
+      - action: utter_4_1_организация_транспорта
+      - intent: 4_1_карантин
+        entities: []
+      - action: utter_4_1_карантин
+      - intent: 4_1_изоляция
+        entities: []
+      - action: utter_4_1_изоляция
+      - intent: 4_1_местонахождение_факультетов
+        entities: []
+      - action: utter_4_1_местонахождение_факультетов
+      - intent: 4_1_материальная_база_первокурсникам
+        entities: []
+      - action: utter_4_1_материальная_база_первокурсникам
+      - intent: 4_1_стипендия_от_университета
+        entities: []
+      - action: utter_4_1_стипендия_от_университета
+      - intent: 4_1_контакты_по_работе_с_иностр_студентами
+        entities: []
+      - action: utter_4_1_контакты_по_работе_с_иностр_студентами
+    metadata:
+      group: 4. Важная информация для первокурсников - иностранных граждан
+  - story: 4.2. Адаптация и возможности студентов
+    steps:
+      - intent: 4_2_подразделение_для_иностранцев
+        entities: []
+      - action: utter_4_2_подразделение_для_иностранцев
+      - intent: 4_2_студенческий_досуг
+        entities: []
+      - action: utter_4_2_студенческий_досуг
+      - intent: 4_2_занятие_спортом
+        entities: []
+      - action: utter_4_2_занятие_спортом
+      - intent: 4_2_сложности_обучения
+        entities: []
+      - action: utter_4_2_сложности_обучения
+      - intent: 4_2_досуг
+        entities: []
+      - action: utter_4_2_досуг
+      - intent: 4_2_культурно_творческая_деятельность
+        entities: []
+      - action: utter_4_2_культурно_творческая_деятельность
+      - intent: 4_2_музей
+        entities: []
+      - action: utter_4_2_музей
+      - intent: 4_2_мероприятия
+        entities: []
+      - action: utter_4_2_мероприятия
+      - intent: 4_2_грант
+        entities: []
+      - action: utter_4_2_грант
+      - intent: 4_2_вакансии
+        entities: []
+      - action: utter_4_2_вакансии
+      - intent: 4_2_стажировка
+        entities: []
+      - action: utter_4_2_стажировка
+      - intent: 4_2_волонтерство
+        entities: []
+      - action: utter_4_2_волонтерство
+    metadata:
+      group: 4. Важная информация для первокурсников - иностранных граждан
+rules: []

@@ -1,0 +1,75 @@
+stories:
+  - story: 6.1. Проживание
+    steps:
+      - intent: 6_1_стоимость_проживания
+        entities: []
+      - action: utter_6_1_стоимость_проживания
+      - intent: 6_1_сумма_денег_на_первое_время
+        entities: []
+      - action: utter_6_1_сумма_денег_на_первое_время
+      - intent: 6_1_гости_в_общежитии
+        entities: []
+      - action: utter_6_1_гости_в_общежитии
+      - intent: 6_1_заселение_в_общежитие_после_выезда
+        entities: []
+      - action: utter_6_1_заселение_в_общежитие_после_выезда
+      - intent: 6_1_общежитие_для_иностранцев
+        entities: []
+      - action: utter_6_1_общежитие_для_иностранцев
+      - intent: 6_1_проживание_в_общежитии
+        entities: []
+      - action: utter_6_1_проживание_в_общежитии
+      - intent: 6_1_траты_в_месяц
+        entities: []
+      - action: utter_6_1_траты_в_месяц
+      - intent: 6_1_переезд_из_общежития_на_квартиру
+        entities: []
+      - action: utter_6_1_переезд_из_общежития_на_квартиру
+      - intent: 6_1_заселение_в_общежитие
+        entities: []
+      - action: utter_6_1_заселение_в_общежитие
+      - intent: 6_1_документы_для_заселения_в_общежитие
+        entities: []
+      - action: utter_6_1_документы_для_заселения_в_общежитие
+      - intent: 6_1_адреса_общежитий
+        entities: []
+      - action: utter_6_1_адреса_общежитий
+    metadata:
+      group: 6. Обустройство и быт
+  - story: 6.2. Питание
+    steps:
+      - intent: 6_2_питание_для_иностранцев
+        entities: []
+      - action: utter_6_2_питание_для_иностранцев
+      - intent: 6_2_продукты_питания
+        entities: []
+      - action: utter_6_2_продукты_питания
+      - intent: 6_2_питание
+        entities: []
+      - action: utter_6_2_питание
+    metadata:
+      group: 6. Обустройство и быт
+  - story: 6.3. Связь
+    steps:
+      - intent: 6_3_офисы_сотовых_операторов
+        entities: []
+      - action: utter_6_3_офисы_сотовых_операторов
+      - intent: 6_3_оформление_сим_карты
+        entities: []
+      - action: utter_6_3_оформление_сим_карты
+      - intent: 6_3_получение_док_из_других_стран
+        entities: []
+      - action: utter_6_3_получение_док_из_других_стран
+    metadata:
+      group: 6. Обустройство и быт
+  - story: 6.4. Денежные переводы
+    steps:
+      - intent: 6_4_валюта
+        entities: []
+      - action: utter_6_4_валюта
+      - intent: 6_4_перевод_денег
+        entities: []
+      - action: utter_6_4_перевод_денег
+    metadata:
+      group: 6. Обустройство и быт
+rules: []

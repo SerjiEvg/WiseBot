@@ -1,0 +1,341 @@
+stories:
+  - story: 02_глоссарий
+    steps:
+      - intent: 02_шифрование
+        entities: []
+      - action: utter_02_шифрование
+      - intent: 02_эцп
+        entities: []
+      - action: utter_02_эцп
+      - intent: 02_электр_подпись
+        entities: []
+      - action: utter_02_электронная_подпись
+      - intent: 02_криптопровайдер
+        entities: []
+      - action: utter_02_криптопровайдер
+      - intent: 02_генерация
+        entities: []
+      - action: utter_02_генерация
+      - intent: 02_компрометация
+        entities: []
+      - action: utter_02_компрометация
+      - intent: 02_производитель_криптопро
+        entities: []
+      - action: utter_02_производитель_криптопро
+      - intent: 02_сертификат
+        entities: []
+      - action: utter_02_сертификат
+      - intent: 02_кэп
+        entities: []
+      - action: utter_02_кэп
+      - intent: 02_нэп
+        entities: []
+      - action: utter_02_нэп
+      - intent: 02_пэп
+        entities: []
+      - action: utter_02_пэп
+      - intent: 02_single
+        entities: []
+      - action: utter_02_single
+      - intent: 02_штамп_времени
+        entities: []
+      - action: utter_02_штамп_времени
+      - intent: 02_усовершенствованная_подпись
+        entities: []
+      - action: utter_02_усовершенствованная_подпись
+      - intent: 02_отпечаток_ключа
+        entities: []
+      - action: utter_02_отпечаток_ключа
+    metadata:
+      group: Информация о магазине/организации
+  - story: 02_контакты
+    steps:
+      - intent: 02_контакты
+        entities: []
+      - action: utter_02_контакты
+      - intent: 02_почтовый_адрес
+        entities: []
+      - action: utter_02_почтовый_адрес
+      - intent: 02_режим_работы
+        entities: []
+      - action: utter_02_режим_работы
+      - intent: 02_техподдержка
+        entities: []
+      - action: utter_02_техподдержка
+      - intent: 02_вопрос_оплаты
+        entities: []
+      - action: utter_02_вопрос_оплаты
+      - intent: 02_общие_вопросы
+        entities: []
+      - action: utter_02_общие_вопросы
+      - intent: 02_номер_техподдержка
+        entities: []
+      - action: utter_02_номер_техподдержки
+      - intent: 02_фактический_адрес
+        entities: []
+      - action: utter_02_факт_адрес
+      - intent: 02_перерыв
+        entities: []
+      - action: utter_02_перерыв
+      - intent: 02_этаж
+        entities: []
+      - action: utter_02_этаж
+      - intent: 02_здание
+        entities: []
+      - action: utter_02_здание
+      - intent: 02_телефон
+        entities: []
+      - action: utter_02_телефон
+      - intent: 02_отправка_бух_док
+        entities: []
+      - action: utter_02_отправка_бух_док
+      - intent: 02_вопрос_по_бух_док
+        entities: []
+      - action: utter_02_вопрос_по_бух_док
+    metadata:
+      group: Информация о магазине/организации
+  - story: 02_криптоарм
+    steps:
+      - intent: 02_криптоарм
+        entities: []
+      - action: utter_02_криптоарм
+      - intent: 02_криптоарм_гост
+        entities: []
+      - action: utter_02_криптоарм_гост
+      - intent: 02_криптоарм_випнет
+        entities: []
+      - action: utter_02_криптоарм_випнет
+      - intent: 02_использование_криптоарм
+        entities: []
+      - action: utter_02_использование_криптоарм
+      - intent: 02_для_подписи
+        entities: []
+      - action: utter_02_для_подписи
+      - intent: 02_для_декларации
+        entities: []
+      - action: utter_02_для_декларации
+      - intent: 02_обмен_с_банком
+        entities: []
+      - action: utter_02_обмен_с_банком
+      - intent: 02_росреестр
+        entities: []
+      - action: utter_02_росреестр
+      - intent: 02_иск_в_суд
+        entities: []
+      - action: utter_02_иск_в_суд
+      - intent: 02_регистрационный_номер
+        entities: []
+      - action: utter_02_регистрационный_номер
+      - intent: 02_сферы_криптоарм_гост
+        entities: []
+      - action: utter_02_сферы_криптоарм_гост
+      - intent: 02_криптоарм_гост_ос
+        entities: []
+      - action: utter_02_криптоарм_гост_ос
+      - intent: 02_дистрибутив_гост
+        entities: []
+      - action: utter_02_дистрибутив_гост
+      - intent: 02_криптопровайдер_криптоарм5
+        entities: []
+      - action: utter_02_криптопровайдер_криптоарм5
+      - intent: 02_криптоарм5_ос
+        entities: []
+      - action: utter_02_криптоарм5_ос
+      - intent: 02_ключевой_носитель_5
+        entities: []
+      - action: utter_02_ключевой_носитель_5
+      - intent: 02_гост_ос
+        entities: []
+      - action: utter_02_гост_ос
+      - intent: 02_применение_випнет
+        entities: []
+      - action: utter_02_применение_випнет
+      - intent: 02_ос_випнет
+        entities: []
+      - action: utter_02_ос_випнет
+      - intent: 02_сравнение_версий
+        entities: []
+      - action: utter_02_сравнение_версий
+      - intent: 02_тестовый_режим
+        entities: []
+      - action: utter_02_тест
+      - intent: 02_отличие_типов_лицензий
+        entities: []
+      - action: utter_02_отличие_типов_лицензий
+      - intent: 02_функционал_старт
+        entities: []
+      - action: utter_02_функционал_старт
+      - intent: 02_криптопро_цсп
+        entities: []
+      - action: utter_02_криптопро_цсп
+      - intent: 02_сертификат_фсб_криптоарм
+        entities: []
+      - action: utter_02_сертификат_фсб_криптоарм
+      - intent: 02_поддержка_криптопровайдеров
+        entities: []
+      - action: utter_02_поддержка_криптопровайдеров
+      - intent: 02_криптоарм_ос
+        entities: []
+      - action: utter_02_криптоарм_ос
+      - intent: 03_отличие_стандарт_от_стандарт_плюс
+        entities: []
+      - action: utter_03_отличие_стандарт_от_стандарт_плюс
+      - intent: 03_отличие_гост_обновление_до_гост
+        entities: []
+      - action: utter_03_отличие_гост_обновление_до_гост
+    metadata:
+      group: Информация о магазине/организации
+  - story: 02_о_компании
+    steps:
+      - intent: 02_о_компании
+        entities: []
+      - action: utter_02_направления
+      - intent: 02_направления_деятельности
+        entities: []
+      - action: utter_02_направления_деятельности
+      - intent: 02_лицензия
+        entities: []
+      - action: utter_02_лицензия
+      - intent: 02_ссылка
+        entities: []
+      - action: utter_02_ссылка
+      - intent: 02_существование
+        entities: []
+      - action: utter_02_существование
+      - intent: 02_аккредитация
+        entities: []
+      - action: utter_02_аккредитация
+      - intent: 02_название_компании
+        entities: []
+      - action: utter_02_название_компании
+    metadata:
+      group: Информация о магазине/организации
+  - story: 02_перевод_на_оператора
+    steps:
+      - intent: 02_переключение_на_оператора
+        entities: []
+      - action: utter_02_переключение_на_оператора
+      - intent: 02_перевод_на_менеджера
+        entities: []
+      - action: utter_02_перевод_на_менеджера
+      - intent: 02_оказание_помощи
+        entities: []
+      - action: utter_02_оказание_помощи
+      - intent: 02_консультация
+        entities: []
+      - action: utter_02_консультация
+      - intent: 03_крипт_гост
+        entities: []
+      - action: utter_03_крипт_гост
+      - intent: 03_криптоарм5
+        entities: []
+      - action: utter_03_криптоарм5
+    metadata:
+      group: Информация о магазине/организации
+  - story: 02_реквизиты
+    steps:
+      - intent: 02_реквизиты
+        entities: []
+      - action: utter_02_реквизиты
+      - intent: 02_счет
+        entities: []
+      - action: utter_02_счет
+    metadata:
+      group: Информация о магазине/организации
+  - story: 02_трастед
+    steps:
+      - intent: 02_трастед_тлс
+        entities: []
+      - action: utter_02_трастед_тлс
+      - intent: 02_трастед_джава
+        entities: []
+      - action: utter_02_трастед_джава
+      - intent: 02_трастед_нет
+        entities: []
+      - action: utter_02_трастед_нет
+      - intent: 02_трастед
+        entities: []
+      - action: utter_02_трастед
+      - intent: 02_версии_тлс
+        entities: []
+      - action: utter_02_версии_тлс
+      - intent: 02_трастед_ос
+        entities: []
+      - action: utter_02_трастед_ос
+      - intent: 02_поддержка_прротоколов
+        entities: []
+      - action: utter_02_поддержка_протоколов
+      - intent: 02_операции_тлс
+        entities: []
+      - action: utter_02_операции_тлс
+      - intent: 02_поддержка_ssl
+        entities: []
+      - action: utter_02_поддержка_ssl
+      - intent: 02_алгоритмы
+        entities: []
+      - action: utter_02_алгоритмы
+      - intent: 02_ос_джава
+        entities: []
+      - action: utter_02_ос_джава
+      - intent: 02_для_кого
+        entities: []
+      - action: utter_02_для_кого
+      - intent: 02_способы_нет
+        entities: []
+      - action: utter_02_способы_нет
+      - intent: 02_преимущества
+        entities: []
+      - action: utter_02_преимущества
+      - intent: 02_рег_номер
+        entities: []
+      - action: utter_02_рег_номер
+      - intent: 02_запрос_тестовой_лицензии_trusted_java
+        entities: []
+      - action: utter_02_запрос_тестовой_лицензии_trusted_java
+    metadata:
+      group: Информация о магазине/организации
+  - story: 02_чат-бот
+    steps:
+      - intent: 02_чат-бот
+        entities: []
+      - action: utter_02_чат-бот
+      - intent: 02_имя
+        entities: []
+      - action: utter_02_имя
+      - intent: 01_босс
+        entities: []
+      - action: utter_01_босс
+      - intent: 01_занятый
+        entities: []
+      - action: utter_02_занятый
+      - intent: 02_умение
+        entities: []
+      - action: utter_02_умение
+      - intent: 02_темы
+        entities: []
+      - action: utter_02_темы
+      - intent: 02_нахождение_бота
+        entities: []
+      - action: utter_02_нахождение_бота
+      - intent: 01_реальный
+        entities: []
+      - action: utter_01_реальный
+    metadata:
+      group: Информация о магазине/организации
+rules:
+  - rule: криптоарм 3
+    condition: []
+    steps:
+      - intent: 02_криптоарм3
+        entities: []
+      - action: utter_02_криптоарм3
+    metadata:
+      group: Информация о магазине/организации
+  - rule: криптоарм 5
+    condition: []
+    steps:
+      - intent: 02_криптоарм5
+        entities: []
+      - action: utter_02_криптоарм5
+    metadata:
+      group: Информация о магазине/организации
